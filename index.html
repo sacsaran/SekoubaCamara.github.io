@@ -42,12 +42,21 @@
 						<div class="content">
 							<p><a href='https://github.com/sacsaran/Data-Cleaning-SQL/blob/main/CleamingData.sql'><strong>SQL Data Cleaning</a></strong> In this project I loaded  an unclean dataset from Nashvill Housing Asociation into SQL and use a simple Power Query before fully cleaning the DATA
 							 and make the good use of the following queries:
-		                    --Convert (standarise Date format to keep the date only and remove time)
+
+							 <ul class="Queries"> 
+								<li>ISNull(populate Property Address Data to fix missing data issue)</li>
+								<li>Substring (break Address into individual column  eg: Address, City, State)</li>
+								<li>ParseName (split the address)</li>
+								<li>cases (for conditionalformating)</li>
+								<li>ROw_Number (Remove Duplicate Data while also using the partition By)</li>
+							 </ul>
+
+		                    <!-- --Convert(standarise Date format to keep the date only and remove time)
 							--ISNull(populate Property Address Data to fix missing data issue)							
 							--Substring(break Address into individual column  eg: Address, City, State)
 							--ParseName(split the address)
 							--cases(for conditionalformating)
-							--ROw_Number(Remove Duplicate Data while also using the partition By)
+							--ROw_Number(Remove Duplicate Data while also using the partition By) -->
 							</p>
 							<span class="image main"><img src="images/housing.jpg" alt="" /></span>
 							<li><a href='https://github.com/sacsaran/Data-Cleaning-SQL/blob/main/CleamingData.sql'> View Project<br/></a></li>
